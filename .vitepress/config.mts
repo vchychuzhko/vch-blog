@@ -4,6 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'VCH Blog',
   description: 'Vladyslav Chychuzhko Personal Blog',
+  head: [
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon-180x180.png', sizes: '180x180' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +29,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'linkedin', link: 'https://linkedin.com/in/vchychuzhko' },
+      { icon: 'github', link: 'https://github.com/vchychuzhko/vch-blog' }
     ]
   }
 })
