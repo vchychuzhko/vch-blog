@@ -11,26 +11,44 @@ export default defineConfig({
     ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon-180x180.png', sizes: '180x180' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
   ],
+  srcExclude: ['**/README.md', '**/LICENSE.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    search: {
+      provider: 'local',
+    },
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+    nav: [
+      // { text: 'Home', link: '/' },
     ],
 
     socialLinks: [
       { icon: 'linkedin', link: 'https://linkedin.com/in/vchychuzhko' },
-      { icon: 'github', link: 'https://github.com/vchychuzhko/vch-blog' }
-    ]
+      { icon: 'github', link: 'https://github.com/vchychuzhko' },
+    ],
+
+    sidebar: [
+      { text: 'Introduction', link: '/introduction' },
+      {
+        text: 'Posts',
+        base: '/post',
+        items: [
+          { text: 'document.forms', link: '/forms' },
+        ],
+      },
+    ],
+
+    outline: 'deep',
+
+    editLink: {
+      pattern: 'https://github.com/vchychuzhko/vch-blog/blob/master/:path',
+      text: 'View this page on GitHub',
+    },
+
+    lastUpdated: true,
+
+    footer: {
+      copyright: 'Copyright © Vladyslav Chychuzhko',
+    },
   }
 })

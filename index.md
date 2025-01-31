@@ -3,23 +3,19 @@
 layout: home
 
 hero:
-  name: "VCH Blog"
-  text: "Vladyslav Chychuzhko Personal Blog"
-  tagline: My great project tagline
+  name: VCH Blog
+  tagline: Vladyslav Chychuzhko Personal Blog
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/vchychuzhko/vch-blog
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: document.forms
+    details: Collection of all forms on the page
+    link: /post/forms
+    linkText: Read more
 ---
-
