@@ -22,6 +22,8 @@ export default defineConfig({
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
   ],
   transformPageData({ title, description, frontmatter }) {
+    if (!title || !description) return
+
     frontmatter.head ??= []
     frontmatter.head.push(
       ['meta', { property: 'og:title', content: title + ' | VCH Blog' }],
