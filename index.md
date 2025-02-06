@@ -14,8 +14,12 @@ hero:
       link: https://github.com/vchychuzhko/vch-blog
 
 features:
-  - title: document.forms
+  - title: Property document.forms
     details: Collection of all forms on the page
     link: /post/forms
+    linkText: Read more
+  - title: Attribute novalidate
+    details: Attribute that disables form validation
+    link: /post/novalidate
     linkText: Read more
 ---

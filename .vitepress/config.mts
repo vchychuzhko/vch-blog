@@ -52,7 +52,8 @@ export default defineConfig({
         text: 'Posts',
         base: '/post',
         items: [
-          { text: 'document.forms', link: '/forms' },
+          { text: 'Property document.forms', link: '/forms' },
+          { text: 'Attribute novalidate', link: '/novalidate' },
         ],
       },
     ],

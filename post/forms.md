@@ -1,11 +1,11 @@
 ---
-title: document.forms
+title: Property document.forms
 description: Collection of all forms on the page
 ---
 
-# document.forms
+# Property document.forms
 
-`forms` — is a read-only property of `document` object. It contains a collection of all `<form>` elements on the page.
+This is a read-only property of `document` object. It contains a collection of all `<form>` elements on the page.
 
 ## How to write
 
@@ -126,7 +126,7 @@ This might come handy for global operations on the page. For example, to collect
 
 One more advantage to use `<form>` tag :slightly_smiling_face:
 
-## Practice Tips
+## Practice tips
 
 By analogy with the property `length` in array, we can get total number of forms on page:
 
