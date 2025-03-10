@@ -49,11 +49,18 @@ export default defineConfig({
     sidebar: [
       { text: 'Introduction', link: '/introduction' },
       {
-        text: 'Posts',
-        base: '/post',
+        text: 'Web',
+        base: '/post/web',
         items: [
           { text: 'Property document.forms', link: '/forms' },
           { text: 'Attribute novalidate', link: '/novalidate' },
+        ],
+      },
+      {
+        text: 'Linux',
+        base: '/post/linux',
+        items: [
+          { text: 'Nginx + Apache', link: '/nginx-apache' },
         ],
       },
     ],

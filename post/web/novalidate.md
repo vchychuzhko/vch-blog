@@ -35,6 +35,10 @@ Once the attribute is removed, form submission is blocked and browser will promp
 Native validation is triggered only on form submission attempt.
 :::
 
+## What it solves
+
+todo
+
 ## Understanding
 
 Every input can have a type or validation rule. When user submits the forms, all of those types and rules are checked by browser, blocking the submission if any issues found.
@@ -59,4 +63,4 @@ Effect of `novalidate` is similar to [`formnovalidate`](https://developer.mozill
 <button formnovalidate>Submit</button>
 ```
 
-It also makes browser not trigger the validation.
+It also tells browser to not trigger the validation.

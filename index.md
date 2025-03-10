@@ -20,6 +20,10 @@ features:
     linkText: Read more
   - title: Attribute novalidate
     details: Attribute that disables form validation
-    link: /post/novalidate
+    link: /post/web/novalidate
+    linkText: Read more
+  - title: Nginx + Apache
+    details: Guide to set up Nginx and Apache to run simultaneously
+    link: /post/linux/nginx-apache
     linkText: Read more
 ---
